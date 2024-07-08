@@ -1,1 +1,1 @@
-Enticing and fresh wedding website 
+Creative Wedding website 
