@@ -5,56 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eunice & Samuelson | Joy</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <!-- internal styling -->
 <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
     *{
-        margin: 0px;
+        margin-bottom: 0px;
         padding: 0px;
+        color: #444444;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
     }
 
     .background-image{
-        background-image: url(./img/beautiful-flowers-arrangement.jpg);
-        height: 100vh;
+        background-image: url(./img/beautiful-flowers-arrangement\ \(1\).jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-bottom: -30px;
     }
 
     .main-header{
         font-family: 'Times New Roman', Times, serif;
         font-size: 60px;
         padding-top: 100px;
-        font-weight: 200;
+        color: #444444;
     }
 
     .main-header>span{
         font-family: "CustomFont";
         font-size: 45px;
     }
-    
+
+    .container{
+        width: 1000px;
+    }
+
+    .nav{
+        display: flex;
+        align-items: center;
+        margin-left: 60px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .nav ol{
+        display: flex;
+        list-style: none;
+    }
+
+    .nav ol li{
+        margin: 1em;
+    }
+
+    .nav ol li a{
+        color: #444444;
+    }
+
+    .nav a:active{
+        background-color: lightgray;
+    }
+
+    .main-img{
+        max-width: 550px; 
+        margin: 0px 210px;
+        padding: 0px;
+    }
+
     @font-face {
         font-family: CustomFont;
         src: url(./fonts/Hera-Big-Regular.ttf);
     }
     
-</style>
+    </style>
 
 <body>
     <div class="background-image">
-        
-        <div class="container">
+
+        <div class="container bg-white shadow-lg">
             
             <header>
-                <h1 class=" main-header text-center text-dark">Eunice <span>&</span> Samuelson</h1>
+                <h1 class=" main-header text-center">Eunice <span>&</span> Samuelson</h1>
+                <div class="nav">
+                    <ol>
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="Story.html">Story</a></li>
+                        <li><a href="#">Schedule</a></li>
+                        <li><a href="#">Travel</a></li>
+                        <li><a href="#">Groomsmen & Bridesmaids</a></li>
+                        <li><a href="#">Moments</a></li>
+                        <li><a href="#">Get the app</a></li>
+                    </ol>
+                </div>
             </header>
             <main>
-                
+                <img class="main-img" src="img/young-stylish-dark-skinned-couple-standing-sunny-city.jpg" alt="Image by prostooleh on Freepik">
             </main>
+        </div>
             <footer>
                 
             </footer>
         </div>
-    </div>
-</body>
-</html>
+    </body>
+    </html>
