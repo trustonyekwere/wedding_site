@@ -9,9 +9,6 @@
 
 <!-- internal styling -->
 <style>
-
-    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
     *{
         margin-bottom: 0px;
         padding: 0px;
@@ -19,132 +16,49 @@
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;
     }
-
-    .background-image{
-        background-image: url(./img/beautiful-flowers-arrangement\ \(1\).jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        margin-bottom: -30px;
-    }
-
-    .main-header{
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 60px;
-        padding-top: 100px;
-        color: #444444;
-    }
-
-    .main-header>span{
-        font-family: "CustomFont";
-        font-size: 45px;
-    }
-
-    .container{
-        width: 1000px;
-    }
-
-    .nav{
-        display: flex;
-        align-items: center;
-        margin-left: 60px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    .nav ol{
-        display: flex;
-        list-style: none;
-    }
-
-    .nav ol li{
-        margin: 1.8em;
-    }
-
-    .nav ol li a{
-        color: #444444;
-        font-size: 16px;
-    }
-
-    .nav a.active{
-        border: #EEEEEE .1pt solid;
-        background-color: #EEEEEE;
-        padding: 6px 17px;
-        border-radius: 8px;
-    }
-
-    .main-img{
-        max-width: 550px; 
-        margin: 0px 210px;
-        padding: 0px;
-    }
-
-    button{
-        padding: 10px;
-        color: #333333;
-        border-radius: 5px;
-        margin: 0px 390px;
-        margin-bottom: 70px;
-    }
-
-    button:hover{
-        color: #777777;
-    }
-
-    h2{
-        padding: 0px 325px;
-        margin: 50px 0px;
-        font-family: 'Times New Roman', Times, serif;
-        color: #444444;
-        font-size: 35px;
-    }
-
-    h4{
-        padding: 0px 385px;
-        margin: -20px 0px 45px;
-        font-family: 'Times New Roman', Times, serif;
-        color: #444444;
-    }
-
-    .end-note{
-        padding: 0px 220px;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 20px;
-        padding-bottom: 200px;
-        text-align: center;
-    }
-
-    @font-face {
-        font-family: CustomFont;
-        src: url(./fonts/Hera-Big-Regular.ttf);
-    }
     
+    .collage{
+        height: 100vh;
+    }
+
     </style>
 
 <body>
-    <div class="background-image">
-
-        <div class="container bg-white shadow-lg">
-            
-            <header>
-                <h1 class=" main-header text-center">Queen <span>&</span> Bethel</h1>
-                <div class="nav">
-                    <ol>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="story.html">Story</a></li>
-                        <li><a href="schedule.html">Schedule</a></li>
-                        <li><a href="g&b.html">Groomsmen & Bridesmaids</a></li>
-                        <li><a class="active" href="moments.html">Moments</a></li>
-                    </ol>
-                </div>
-            </header>
-            <main>
-                <img class="main-img" src="img/young-stylish-dark-skinned-couple-standing-sunny-city.jpg" alt="Image by prostooleh on Freepik">
-            </main>
+    <div class="collage">
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="card-img-top" src="img/cute-small-height-african-american-girl-with-dreadlocks-wear-coloured-yellow-dress-watches-store-shopping-center_627829-2900.jpg" style="padding: 0px;" alt="image">    
+            </div>
+            <div class="col-lg-4">
+                <img class="card-img-top" src="img/handsome-afro-american-man-wearing-traditional-clothes-cap-eyeglasses-modern-city_627829-200.jpg" style="padding: 0px;" alt="image">
+            </div>
+            <div class="col-lg-4">
+                <img class="card-img-top" src="img/beautiful-young-african-woman-wearing-fashionable-dress-posing-street-afro-hairstyle_1429-6444.avif" style="padding: 0px;" alt="image">
+            </div>
         </div>
-            <footer>
-                
-            </footer>
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="card-img-top" src="img/cute-small-height-african-american-girl-with-dreadlocks-wear-coloured-yellow-dress-watches-store-shopping-center_627829-2900.jpg" style="width: 300px; height: 200px;" alt="image">    
+            </div>
+            <div class="col-lg-4">
+                <img class="card-img-top" src="img/handsome-afro-american-man-wearing-traditional-clothes-cap-eyeglasses-modern-city_627829-200.jpg" alt="image">
+            </div>
+            <div class="col-lg-4">
+                <img class="card-img-top" src="img/beautiful-young-african-woman-wearing-fashionable-dress-posing-street-afro-hairstyle_1429-6444.avif" alt="image">
+            </div>
         </div>
-    </body>
-    </html>
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="card-img-top" src="img/cute-small-height-african-american-girl-with-dreadlocks-wear-coloured-yellow-dress-watches-store-shopping-center_627829-2900.jpg" style="width: 300px; height: 200px;" alt="image">    
+            </div>
+            <div class="col-lg-4">
+                <img class="card-img-top" src="img/handsome-afro-american-man-wearing-traditional-clothes-cap-eyeglasses-modern-city_627829-200.jpg" alt="image">
+            </div>
+            <div class="col-lg-4">
+                <img class="card-img-top" src="img/beautiful-young-african-woman-wearing-fashionable-dress-posing-street-afro-hairstyle_1429-6444.avif" alt="image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>    
+        
